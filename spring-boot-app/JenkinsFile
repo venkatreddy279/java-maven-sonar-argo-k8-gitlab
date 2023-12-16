@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "java-maven-sonar-argo-k8-gitlab"
+            GIT_REPO_NAME = "java-maven-sonar-argocd-helm-k8s"
             GIT_USER_NAME = "venkatreddy279"
         }
         steps {
